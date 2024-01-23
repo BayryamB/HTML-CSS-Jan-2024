@@ -1,0 +1,14 @@
+body {
+    font : 16px/1.5  Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight : 400;
+}
+.site-title {
+    font: 600 36px/1.5 Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+p {
+    margin-bottom: 1em;
+}
