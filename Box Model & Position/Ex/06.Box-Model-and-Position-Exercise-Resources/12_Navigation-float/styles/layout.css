@@ -29,10 +29,14 @@ li a {
 .article {
     position: relative;
     max-width: 70%;
-    background-color: #ac7070;
 }
-.image1 {
+.float-right {
     float: right;
+}
+.float-left {
+    float: left;
+}
+.image {
     margin: 0.5em;
     padding: 0.3em;
     border: 2px solid black;
@@ -41,6 +45,23 @@ li a {
 .article-content {
     position: relative;
 }
+cite {
+    display: block;
+    position: absolute;
+    right: 0;
+    max-width: 45%;
+    color: rgb(114, 114, 114);
+}
 
-
-
+.cite-level {
+    max-width: 50%;
+    border-right: 5px solid rgb(114, 114, 114);
+    padding-right: 1em;
+    margin-right: 1em;
+}
+aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10em;
+}
