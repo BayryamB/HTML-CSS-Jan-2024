@@ -1,0 +1,25 @@
+@import url(https://fontawesome.com/kits/ca9dc59a03);
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+li {
+    display: inline;
+    height: 100%;
+    width: 100%;
+}
+.fb :hover {
+    color: rgb(0, 18, 179);
+}
+.tw :hover {
+    color: rgb(0, 179, 179);
+}
+.in :hover {
+    color: rgb(179, 0, 179);
+}
+.pi :hover {
+    color: rgb(179, 0, 0);
+}
+.gp :hover {
+    color: rgb(243, 5, 76);
+}

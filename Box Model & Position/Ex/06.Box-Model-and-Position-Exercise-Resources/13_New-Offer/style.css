@@ -1,0 +1,11 @@
+@import url(https://fontawesome.com/kits/ca9dc59a03);
+main {
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+}
+img.new {
+    position: relative;
+    top: -200px;
+    right: 150px;
+}
