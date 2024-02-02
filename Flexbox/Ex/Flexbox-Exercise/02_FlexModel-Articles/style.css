@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: normal 16px/1.5 Helvetica, sans-serif;
+}
+
+h2 {
+    font: bold 32px/1.2 Georgia, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+section {
+    display: flex;
+    max-width: 70vw;
+    justify-content: space-between;
+    gap: 3em;
+}
