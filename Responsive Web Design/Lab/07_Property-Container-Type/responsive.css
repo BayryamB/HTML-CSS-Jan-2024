@@ -1,3 +1,11 @@
+.post {
+  container-type: inline-size;
+}
 .card h2 {
   font-size: 1em;
+}
+@container (min-width: 600px) {
+  .card h2 {
+    background-color: red;
+  }
 }
