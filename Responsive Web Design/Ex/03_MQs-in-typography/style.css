@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font: normal 12px/1.5 Helvetica, sans-serif;
+    padding: 3em 5em;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5em;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 0 0 1em 0.3em rgba(0, 0, 0, 0.2);
+}
+
+ul a {
+    color: rgb(0, 153, 0);
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+.title {
+    font: bold 32px Helvetica, sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.page article {
+    position: relative;
+    flex: 0 0 100%;
+}
+
+
+.right {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+.left {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
+article p {
+    margin-bottom: 1em;
+}
+
+aside p {
+    font: normal 24px/1.5 Georgia, serif;
+}
+
+aside ul {
+    margin-left: 2em;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+blockquote {
+    width: 50%;
+    float: right;
+    font-family: Georgia, serif;
+    color: #3d3d3d;
+    text-align: left;
+    border-left: 3px solid #3d3d3d;
+    margin-left: 1.5em;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+    text-align: right;
+}
+
+blockquote p {
+    text-align: left;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 800px) {
+    body {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1300px) {
+    body {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    body {
+        font-size: 23px;
+    }
+}
