@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+header {
+    display: flex;
+    padding: 1em 2em;
+    background-color: rgb(209, 0, 0);
+    justify-content: space-between;
+}
+header i {
+    padding: 0em 0.3em;
+}
+header p {
+    color: white;
+}
+
+nav {
+    position: relative;
+    width: 100vw;
+    height: 400px;
+    text-align: center;
+}
+
+nav img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+nav ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.intro {
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.intro p, .intro h1, .intro button {
+    color: white;
+}
+.intro p {
+    padding: 2em 1em;
+}
+h1 {
+    font: bold 48px Helvetica, sans-serif;
+}
+.intro button {
+    background-color: rgb(209, 0, 0);
+    border-radius: 0.3em;
+    padding: 0.5em;
+    border: 0px;
+}
+
+.benefits-card, .program{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.benefits-card :nth-child(1), .program :nth-child(1) {
+    padding: 1em;
+    font-size: 24px;
+    font-weight: bold;
+    flex: 0 0 100%;
+}
+.program {
+    background-color: #e7e7e7;
+    margin-top: 1.5em;
+}
+
+.card-benefit {
+    width: 300px;
+}
+.card-benefit img {
+    width: 100px;
+    height: auto;
+}
+.red-text {
+    color: rgb(209, 0, 0);
+}
+.card-benefit p {
+    padding: 0.5em;
+}
+
+.program-card{
+    width: 250px;
+    height: auto;
+    border-radius: 0.3em;
+    padding-bottom: 2em;
+}
+
+footer {
+    background-color: rgb(209, 0, 0);
+    text-align: center;
+}
+footer p {
+    padding: 0.3em;
+}
