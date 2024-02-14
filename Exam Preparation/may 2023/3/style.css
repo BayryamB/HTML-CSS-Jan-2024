@@ -106,13 +106,17 @@ h1 {
     padding: 0.5em;
 }
 
-.program-card{
+.program-card {
     width: 250px;
     height: auto;
     border-radius: 0.3em;
     padding-bottom: 2em;
 }
-
+.program-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.3em;
+}
 footer {
     background-color: rgb(209, 0, 0);
     text-align: center;
