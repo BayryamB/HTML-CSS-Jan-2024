@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: normal 20px/1.5 PT Sans, sans-serif;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.fixed-width {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: PT Serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-page a {
+    text-decoration: none;
+    color: #FFFFF1;
+    text-transform: uppercase;
+}
+
+.top-page ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    padding: 3em;
+}
+
+.top-page {
+    padding-bottom: 3em;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+}
+.Presentation {
+    color: #FFFFF1;
+    padding-bottom: 10em;
+}
+
+.Presentation p {
+    max-width: 750px;
+    padding-top: 1em;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 3em;
+}
+
+.img {
+    width: 190px;
+    height: 190px;
+    background-color: #CCC;
+    border-radius: 50%;
+    position: relative;
+}
+
+.images img {
+    width: 130px;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-content {
+    padding-top: 160px;
+    padding-bottom: 130px;
+}
+
+.sponsors h1 {
+    color: #B0825C;
+    padding-top: 80px;
+}
+
+.sponsors {
+    text-align: center;
+}
+
+.sponsors p {
+    padding-bottom: 80px;
+}
+
+.images {
+    display: flex;
+    gap: 4em;
+    justify-content: center;
+}
+
+.card {
+    width: 680px;
+}
+
+.card p {
+    padding-bottom: 2.5em;
+}
+
+.button {
+    text-decoration: none;
+    border: 2px solid #B0825C;
+    color: #B0825C;
+    padding: 0.5em 1em;
+}
+
+.text-content {
+    display: flex;
+    gap: 2em;
+}
+
+.border {
+    border-bottom: 2px solid #CCC;
+}
+.footer-adress .fixed-width{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer-adress h2 {
+    padding-bottom: 2em;
+}
+
+.footer-adress ul {
+    list-style: none;
+}
+
+.footer-adress, .footer {
+    background-color: #171720;
+    color: #FFFFF1;
+}
+
+.footer {
+    border-top: 2px solid #CCC;
+}
+
+.footer p {
+    padding: 0.5em 0;
+}
